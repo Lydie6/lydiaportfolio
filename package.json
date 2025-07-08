@@ -1,12 +1,12 @@
 {
   "name": "portfolio",
-  "homepage": "https://github.com/Lydie6.github.io/lydiaportfolio/",
+  "homepage": "https://github.com/Lydie6.github.io/lydiaportfolio/ ",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",     ← Change this line
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -31,6 +31,6 @@
     "globals": "^16.2.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
-    "vite": "^7.0.0"
+    "vite": "^7.0.3"
   }
 }
