@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "powershell -Command \"mkdir -p dist/lydiaportfolio; Move-Item -Path dist/* -Destination dist/lydiaportfolio/ -Force\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
