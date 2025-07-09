@@ -41,11 +41,16 @@ const Contacts = () => {
           <button type='submit' className=' w-full bg-blue-600 px-4 py-3 m-2 rounded-lg font-medium text-white transition hover:-translate-y-0.5 hover:hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>Send Message</button>
         </form>
 
-        <div className="text-white flex justify-center gap-5 mt-6">
-          <FaFacebookF size={30} />
-          <FaLinkedin size={30} />
-          <FaGithub size={30} />
-
+      <div className="text-white flex justify-center gap-5 mt-6">
+          <a href="https://web.facebook.com/hadjer.kh.415411 " target="_blank" rel="noopener noreferrer">
+            <FaFacebookF size={30} />
+          </a>
+          <a href="www.linkedin.com/in/lydia-ikhelef-1b2030318" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} />
+          </a>
+          <a href="https://github.com/Lydie6 " target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} />
+          </a>
         </div>
       </div>
     </section>
