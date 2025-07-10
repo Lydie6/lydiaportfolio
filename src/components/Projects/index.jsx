@@ -27,7 +27,7 @@ const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                            <a className='mt-4 text-blue-400 hover:text-blue-300 '>view project &rarr;</a>
+                            <a href='{project.link}' className='mt-4 text-blue-400 hover:text-blue-300 '>view project &rarr;</a>
                         </div>))}
                 </div>
             </div>
