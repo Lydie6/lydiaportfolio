@@ -19,7 +19,7 @@ const Navbar = () => {
                         About
                     </StyledNavLink>
                     <StyledNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>
-                        Products
+                        Projects
                     </StyledNavLink>
                     <StyledNavLink href="#contacts" onClick={() => setIsMenuOpen(false)}>
                         Contacts
