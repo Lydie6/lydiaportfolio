@@ -15,7 +15,7 @@ const Home = () => {
                 I work with modern tools like React and Tailwind CSS to create responsive and intuitive user interfaces.
                 I've developed several projects — both as part of my academic journey and through personal practice —
                 which have helped me sharpen my technical and problem-solving skills. I'm especially passionate about
-                networks ,and I'm constantly exploring how to build secure, efficient systems that support
+                networks and cybersecurity ,and I'm constantly exploring how to build secure, efficient systems that support
                 reliable web experiences.
         </p>
       </div>
