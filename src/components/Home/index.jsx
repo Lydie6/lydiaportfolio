@@ -11,11 +11,11 @@ const Home = () => {
         </h1>
         <p className=" text-gray-400    mb-8 text-lg max-w-[20rem] xs:max-w-[300px] sm:max-w-2xl lg:max-w-4xl mx-auto text-justify">
         I'm currently a Master's student in Network Administration and Security, with a strong interest in both
-                web development and network technologies. As a front-end developer,
+                web development and network technologies. As a web developer,
                 I work with modern tools like React and Tailwind CSS to create responsive and intuitive user interfaces.
                 I've developed several projects — both as part of my academic journey and through personal practice —
                 which have helped me sharpen my technical and problem-solving skills. I'm especially passionate about
-                networks and cybersecurity, and I'm constantly exploring how to build secure, efficient systems that support
+                networks ,and I'm constantly exploring how to build secure, efficient systems that support
                 reliable web experiences.
         </p>
       </div>
