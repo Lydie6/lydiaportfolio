@@ -3,7 +3,7 @@ import '../App.css';
 import '../index.css'
 const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "Hello World";
+  const fullText = "Welcome to my portfolio";
 
   useEffect(() => {
     let index = 0;
