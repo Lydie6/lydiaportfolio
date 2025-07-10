@@ -48,7 +48,7 @@ const Contacts = () => {
           <a href="https://www.linkedin.com/in/lydia-ikhelef-1b2030318/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} />
           </a>
-          <a href="https://github.com/Lydie6 " target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Lydie6" target="_blank" rel="noopener noreferrer">
             <FaGithub size={30} />
           </a>
         </div>
