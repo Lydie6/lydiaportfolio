@@ -1,6 +1,6 @@
 // projects.js
-import decoImage from "../../assets/CaptureRealEstate.png";
-import reaEstImage from "../../assets/CaptureDeco.png";
+import reaEstImage from "../../assets/CaptureRealEstate.png";
+import decoImage from "../../assets/CaptureDeco.png";
 export const projects = [
     {
       id: 1,
