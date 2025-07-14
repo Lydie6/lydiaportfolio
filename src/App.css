@@ -25,19 +25,15 @@ main * {
 @media (max-width: 420px) {
     body {
         width: 100%;
-        overflow-x: hidden;
+        
         min-width: 100%; /* Assure que le body occupe toute la largeur */
     }
 
-    main {
-        padding: 0;
-        margin: 0;
-    }
+
 
     #navbar, #home, #about, #projects, #contacts {
         width: 100%;
-        margin: 0;
-        padding: 0;
+      
     }
 
     /* Réduire la taille des polices si nécessaire */
@@ -47,13 +43,3 @@ main * {
 
 
 }
-@media (max-width: 640px) {
-    #contacts {
-      margin-top: 24px;
-    }
-  }
-  @media (max-width: 420px) {
-    #contacts,#projects {
-      margin-top: 120px; /* Ajustement pour très petits écrans */
-    }
-  }

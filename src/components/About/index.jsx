@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <RevealOnScroll>
-         <section id="about"  className=" flex   ">
+         <section id="about"  className=" flex  sm:mb-1 ">
     
     <div className="max-w-3xl mx-auto px-4 mt-[5rem] ">
    <div className="border border-white/10 rounded-lg p-4">
