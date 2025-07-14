@@ -25,11 +25,11 @@ const Contacts = () => {
   }
   return (
 
-    <section id='contacts' className="  sm:pt-1">
+    <section id='contacts' className=" pt-[4rem] ">
       <div className="px-4  max-w-2xl sm:max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gradient  ">Contact me</h1>
         <form className='mt-6   text-white mr-2 sm:mr-0' onSubmit={handlesubmit}>
-          <div className="relative  ">
+          <div className="relative   ">
             <input type="text" id='name' name='Name' placeholder='Name ' required value={formData.name} onChange={(e) => setformData({ ...formData, name: e.target.value })} className=' w-full border  border-white bg-white/5 px-4 py-3 m-2 rounded-lg focus:outline-none focus:border-blue-400 focus:bg-blue-500/5' />
           </div>
           <div className="relative">
