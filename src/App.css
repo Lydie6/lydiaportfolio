@@ -40,6 +40,8 @@ main * {
     h1, h2, p {
         font-size: 1rem; /* Ajustez selon vos besoins */
     }
-
+    #contacts{
+      padding: 10rem 0rem;
+    }
 
 }

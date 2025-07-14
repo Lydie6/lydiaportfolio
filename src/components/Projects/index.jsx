@@ -6,11 +6,11 @@ import "../../App.css"
 
 const Projects = () => {
     return (
-        <section className=" pt-[5rem] pb-10 sm:mb-0  sm:pt-[8rem]  " id='projects'>
+        <section className=" pt-[10rem] pb-10 sm:mb-0  sm:pt-[8rem]  " id='projects'>
           
             <div className="max-w-6xl mx-auto px-4  text-white  ">
                 <h1 className=" text-4xl font-bold text-center    text-gradient  text-transparent mt-[-2rem]">Featured Projects</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
                     {projects.map((project) => (
                         
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-lg transition-all" key={project.id}>

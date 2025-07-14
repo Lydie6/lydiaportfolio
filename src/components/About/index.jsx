@@ -11,7 +11,7 @@ const About = () => {
     <RevealOnScroll>
          <section id="about"  className=" flex  sm:mb-1 ">
     
-    <div className="max-w-3xl mx-auto px-4 mt-[5rem] ">
+    <div className="max-w-3xl mx-auto px-4 mt-[5rem] pb-6 ">
    <div className="border border-white/10 rounded-lg p-4">
    <h1 className="text-4xl font-bold text-center bg-gradient-to-r text-gradient bg-clip-text text-transparent">Skills & Background</h1>
       
