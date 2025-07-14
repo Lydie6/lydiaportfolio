@@ -6,7 +6,7 @@ import "../../App.css"
 
 const Projects = () => {
     return (
-        <section className=" pt-[5rem] mb-7 sm:mt-0 sm:p-20  sm:mb-2" id='projects'>
+        <section className=" pt-[5rem] mb-14 sm:mb-3 sm:mt-0 sm:p-20  " id='projects'>
           
             <div className="max-w-6xl mx-auto px-4  text-white  ">
                 <h1 className="sm:mt-0 text-4xl font-bold text-center    text-gradient  text-transparent">Featured Projects</h1>
