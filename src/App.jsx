@@ -23,7 +23,7 @@ function App() {
 
           {/* Main content - only fades in when loaded */}
           <div
-              className={`min-h-screen bg-black transition-opacity duration-700 ${
+              className={`min-h-screen bg-black transition-opacity duration-700 pb-4 ${
                   isloaded ? 'opacity-100' : 'opacity-0'
               }`}
           >

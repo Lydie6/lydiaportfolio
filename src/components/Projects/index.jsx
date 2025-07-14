@@ -6,15 +6,17 @@ import "../../App.css"
 
 const Projects = () => {
     return (
-        <section className="min-h-screen  sm:mb-2" id='projects'>
-            <RevealOnScroll>
+        <section className="  p-20 lg:mb-20 sm:mb-2" id='projects'>
+          
             <div className="max-w-6xl mx-auto px-4  text-white  ">
                 <h1 className="text-4xl font-bold text-center    text-gradient  text-transparent">Featured Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
                     {projects.map((project) => (
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-lg transition-all" key={project.id}>
+                        
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-lg transition-all" key={project.id}>
+                        <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                            <p className="text-gray-500 mb-4">
+                            <p className="text-gray-500 mb-4 text-justify">
                                 {project.description}
                             </p>
                             <div className="mb-4">
@@ -31,7 +33,7 @@ const Projects = () => {
                         </div>))}
                 </div>
             </div>
-            </RevealOnScroll>
+          
             </section> )}
 export default Projects
 

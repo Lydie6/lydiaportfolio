@@ -25,7 +25,7 @@ const Contacts = () => {
   }
   return (
 
-    <section id='contacts' className="min-h-screen  pt-40 sm:pt-2">
+    <section id='contacts' className=" pt-40 sm:pt-2">
       <div className="px-4  max-w-2xl sm:max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gradient  ">Contact me</h1>
         <form className='mt-6   text-white mr-2 sm:mr-0' onSubmit={handlesubmit}>

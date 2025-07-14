@@ -6,9 +6,16 @@ html, body, #root {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+ 
     
 }
+
+html {
+    scroll-behavior: smooth; /* ✨ This is the magic line! */
+  }
+
+
+  
 /* Pour tous les éléments enfants du main */
 main * {
     margin: 0;
