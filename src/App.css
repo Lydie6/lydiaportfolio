@@ -18,8 +18,7 @@ html {
   
 /* Pour tous les éléments enfants du main */
 main * {
-    margin: 0;
-    padding: 0;
+    
 }
 
 @media (max-width: 420px) {
